@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .max_width
 {
@@ -71,7 +71,7 @@ nav .max_width
 }
 
 .content_menu .text p{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 90;
     line-height: 60px;
 }
@@ -117,4 +117,160 @@ nav .max_width
 .content_menu button
 {
     transition: all 1s;
+}
+
+.content1{
+    background-color: white;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+.content1 .content1_text1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight:90;
+    font-size: 40px;
+}
+.content1 hr
+{
+    margin-top: 30px;
+    /* margin-left: 600px; */
+}
+
+.content1 .content1_text2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+
+    /* margin-bottom: 20px; */
+}
+.content1 .content1_noidung
+{
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content1 .content1_noidung .nd
+{
+    width: 250px;
+    color: gray;
+
+}
+
+.tieude
+{
+    font-weight: bolder;
+    font-size: larger;
+}
+.content1 .hinhanh
+{
+    margin-top: 50px;
+}
+.content1 .hinhanh .dong1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1 .hinhanh .dong1 img
+{
+    height:300px;
+    width: 337.45px;
+}
+
+.content2 
+{
+    color: grey;
+    margin-top: 100px;
+}
+.content2 .tieude
+{
+    font-weight:90;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content2 .tieude hr
+{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.content2 ._content .mobile
+{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.content2 ._content .mobile img
+{
+    height: 450px;
+}
+.content2 ._content .noidung .noidung_text #btn
+{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border-radius: 45px;
+    border: 2px solid orange;
+    color: orange;
+}
+.content2 ._content .noidung
+{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.content2 ._content
+{
+    display: flex;
+    justify-content: space-around;
+}
+.content2 ._content .noidung .noidung_text
+{
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    justify-content: space-around;
+}
+.content2 ._content .noidung .noidung_text .first p
+{
+    width: 430px;
+}
+.content2 ._content .noidung .noidung_text .first
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+.content2 ._content .noidung .download
+{
+    width: 350px;
+    height: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.content2 ._content .noidung .download img
+{
+    height: 50px;    
 }
