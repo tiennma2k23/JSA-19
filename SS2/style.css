@@ -260,6 +260,8 @@ nav .max_width {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 90px;
+  margin-right: 90px;
 }
 
 hr
@@ -269,6 +271,7 @@ hr
   height: 4px;
   margin-top: 30px;
   margin-bottom: 50px;
+  border: none;
 }
 h1
 {
@@ -338,4 +341,64 @@ h1
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 90px;
+  margin-right: 90px;
+  /* width: 1260px; */
+}
+.price-package .max_width .prices-content
+{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.price-package .max_width .prices-content .price .giaca h2
+{
+  text-transform: uppercase;
+  font-weight: initial;
+}
+.price-package .max_width .prices-content .price .giaca .gia 
+{
+  font-size: 50px;
+  color: orange;
+  font-weight: 0;
+}
+.price-package .max_width .prices-content .price .giaca .time 
+{
+  color: orange;
+}
+.price-package .max_width .prices-content .price .benefit i
+{
+  color: #d49a2f;
+}
+.price-package .max_width .prices-content .price
+{
+  width: 28%;
+  background-color: white;
+  padding: 15px 15px;
+}
+.price-package .max_width .prices-content .price hr
+{
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+  background-color: #9d9393;
+}
+.price-package .max_width .prices-content .price button
+{
+  border-radius: 30px;
+  height: 50px;
+  width: 50%;
+  margin-left: 25%;
+  border: 2px solid orange;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: orange;
+}
+.price-package .max_width .prices-content .price .special
+{
+  background-color: orange;
+  color: white;
 }
