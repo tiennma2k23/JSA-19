@@ -65,8 +65,10 @@ console.log(foo(1, 2));
 console.log("Bai1_B4");
 let num = Number(prompt("Nhap n (Bai 1-buoi 4):"));
 let findEven = (n) => {
-  for (let index = 0; index <= n; index++)
-    if (index % 2 == 0) console.log(index);
+  if (n >= 4 && n <= 20) {
+    for (let index = 0; index <= n; index++)
+      if (index % 2 == 0) console.log(index);
+  } else console.log("Ngu");
 };
 findEven(num);
 
